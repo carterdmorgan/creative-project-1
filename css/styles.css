@@ -1,15 +1,10 @@
-img {
-    width: 100%;
-}
-
 * {
     margin: 0;
     padding: 0;
-  }
+}
   
 html,
 body {
-    background-color: #80A1C1;
     height: 100%;
 }
 
@@ -23,10 +18,6 @@ main {
     /* must be same height as the footer */
 }
 
-.testimonials {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 footer {
     position: relative;
@@ -34,119 +25,10 @@ footer {
     /* negative value of footer height */
     height: 50px;
     clear: both;
-    background-color: #D9CFC1;
+    background-color: white;
 }
 
 footer p {
     padding: 10px;
     text-align: center;
-}
-
-.masonry { /* Masonry container */
-    margin: 15px;
-    column-count: 4;
-    column-gap: 1em;
-}
-
-.item { /* Masonry bricks or child elements */
-    background-color: #eee;
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
-}
-
-.flex-grid {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-carousel {
-    background-color: #5E768D;
-    flex: 2;
-}
-
-welcome {
-    flex: 1;
-}
-
-welcome h1 {
-    text-align: center;  
-}
-
-welcome h4 {
-    text-align: center;  
-}
-
-.carousel-item img {
-    width: auto;
-    height: 600px;
-    max-height: 600px;
-}
-
-#carouselExampleControls {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Style the container with a rounded border, grey background and some padding and margin */
-.testimonial {
-    border: 2px solid #ccc;
-    background-color: #eee;
-    border-radius: 5px;
-    padding: 16px;
-    margin: 16px 0;
-}
-
-/* Clear floats after containers */
-.testimonial::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-.testimonial img {
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
-}
-
-/* Increase the font-size of a span element */
-.testimonial span {
-    font-size: 20px;
-    margin-right: 15px;
-}
-
-.title {
-    margin: 10px;
-}
-
-.profile-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 700px;
-    padding: 20px;
-}
-
-.bio {
-    margin-left: 300px;
-    margin-right: 300px;
-    text-align: center;
-}
-
-/* Add media queries for responsiveness. This will center both the text and the image inside the container */
-@media (max-width: 500px) {
-  .testimonial {
-    text-align: center;
-  }
-
-  .testimonial img {
-    margin: auto;
-    float: none;
-    display: block;
-  }
 }
