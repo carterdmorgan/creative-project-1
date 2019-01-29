@@ -61,7 +61,22 @@ footer p {
     text-align: center;
 }
 
+.learn-more-issue {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    background-color: darkblue;
+    width: 40%;
+    margin-top: 10px;
+    text-align: center;
+}
+
 .learn-more-text:hover {
+    background-color: red;
+}
+
+.learn-more-issue:hover {
     background-color: red;
 }
 
@@ -112,4 +127,62 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.issues {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.issue {
+    border: 2px solid #ccc;
+    background-color: white;
+    margin: 16px 0;
+    display: flex;
+}
+
+/* Clear floats after containers */
+.issue::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left {
+    position: relative;
+    flex: 1;
+}
+
+.issue-title {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 10px;
+}
+
+.issue-image {
+    border: black 2px;
+    width: 100%;
+    height: 100%;
+}
+
+.centered-closer-bottom {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-three-fourths {
+    flex: 3;
+}
+
+.bottom-one-fourth {
+    flex: 1;
 }
